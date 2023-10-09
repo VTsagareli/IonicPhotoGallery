@@ -1,17 +1,35 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Instructions
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <div class="center-card">
+    <ion-header collapse="condense">
+      <ion-toolbar>
+        <ion-title size="large">Instructions</ion-title>
+      </ion-toolbar>
+    </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+      <ion-card>
+          <ion-card-header class="center">
+            <ion-card-title>How To Use The App?</ion-card-title>
+            <ion-card-subtitle>Follow The Simple Steps Below</ion-card-subtitle>
+          </ion-card-header>
+        
+          <ion-card-content class="center">
+            <ol>
+              <li>Tap The 'Photos' Tab</li>
+              <li>Tap The Camera Button</li>
+              <li>Allow The Access To The Camera (If Asked)</li>
+              <li>Take The Photo And View It Displayed In Grid</li>
+              <li>If You Want To Delete A Photo, Tap It And Choose Delete.</li>
+            </ol>
+          </ion-card-content>
+        
+      </ion-card>
+  </div>
 </ion-content>

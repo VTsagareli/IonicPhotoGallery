@@ -1,0 +1,19 @@
+.center-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* You can adjust the height as needed */
+  }
+
+ion-card {
+    width: auto; /* Let the card be as wide as its content */
+    max-width: 100%; /* Limit the card's width to a certain percentage of the viewport width */
+  }
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
