@@ -13,6 +13,7 @@ export class Tab2Page {
 
   constructor(public photoService: PhotoService,
     public actionSheetController: ActionSheetController) { }
+
   
   public async showActionSheet(photo: UserPhoto, position: number) {
     const actionSheet = await this.actionSheetController.create({
@@ -33,6 +34,7 @@ export class Tab2Page {
           }
       }]
     });
+
     await actionSheet.present();
   }
 
