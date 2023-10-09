@@ -111,8 +111,7 @@ export class PhotoService{
     });
   
     // delete photo file from filesystem
-    const filename = photo.filepath
-                        .substr(photo.filepath.lastIndexOf('/') + 1);
+    const filename = photo.filepath.substr(photo.filepath.lastIndexOf('/') + 1);
   
     await Filesystem.deleteFile({
       path: filename,
